@@ -5,30 +5,91 @@
 	<meta charset="utf-8">
 	<title>Styles Conference</title>
 	<link rel="stylesheet" href="assets/stylesheets/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
 <body>
-	<header>		
-		<h1>
-			<a href="index.html">Styles Conference</a>
+	<header class="primary-header container group">		
+		<h1 class="logo">
+			<a href="index.html">Styles<br>Conference</a>
 		</h1>
-		<h3>August 24&ndash;26th &mdash; Chicago, IL</h3>
-		<nav>
-			<a href="index.html">Home</a>
-			<a href="speakers.html">Speakers</a>
-			<a href="schedule.html">Schedule</a>
-			<a href="venue.html">Venue</a>
-			<a href="register">Register</a>
+		<h3 class="tagline">August 24&ndash;26th &mdash; Chicago, IL</h3>
+		<nav class="nav primary-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li><!--
+				--><li><a href="speakers.html">Speakers</a></li><!--
+				--><li><a href="schedule.html">Schedule</a></li><!--
+				--><li><a href="venue.html">Venue</a></li><!--
+				--><li><a href="register.html">Register</a></li>
+			</ul>
 		</nav>
 	</header>
-	
-	<footer>
+
+	<section class="row">
+		<div class="container">
+			<table>
+				<thead>
+					<tr>
+						<th scope="row">Workshops</th>
+						<td class="schedule-offset" colspan="2">August 24th</td>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr> 
+						<th scope="row"><time datetime="08:30:00">8:30 AM</time></th>
+						<td class="schedule-offset" colspan="2">Registration</td>
+					</tr>
+					<tr>
+						<th scope="row"><time datetime="09:00:00">9:00 AM</time></th>
+						<td>
+							<a href="speakers.html#adam-connor">
+								<h4>Adam Connor</h4>
+								Lights! Camera! Interaction! Design Inspiration from Filmmakers
+							</a>
+						</td>
+						<td>
+							<a href="speakers.html#jennifer-jones">
+								<h4>Jennifer Jones</h4>
+								What Designers Can Learn from Parenting
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><time datetime="12:30:00">12:30 PM</time></th>
+						<td class="schedule-offset" colspan="2">Lunch</td>
+					</tr>
+					<tr>
+						<th scope="row"><time datetime="14:00">2:00 PM</time></th>
+						<td>
+							<a href="speakers.html#tessa-harmon">
+								<h4>Tessa Harmon</h4>
+								Crafty Coding: Generating Knitting Patterns
+							</a>
+						</td>
+						<td>
+							<a href="speakers.html#russ-unger">
+								<h4>Russ Unger</h4>
+								From Muppets to Mastery: Core UX Principles from Mr. Jim Henson
+							</a>
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+		    
+		</div>
+	</section>
+
+	<footer class="primary-footer container group">
 	 	<small>&copy; Styles Conference</small>
-		<nav>
-			<a href="index.html">Home</a>
-			<a href="speakers.html">Speakers</a>
-			<a href="schedule.html">Schedule</a>
-			<a href="venue.html">Venue</a>
-			<a href="register">Register</a>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li><!--
+				--><li><a href="speakers.html">Speakers</a></li><!--
+				--><li><a href="schedule.html">Schedule</a></li><!--
+				--><li><a href="venue.html">Venue</a></li><!--
+				--><li><a href="register.html">Register</a></li>
+			</ul>
 		</nav>
 	</footer>
 </body>
